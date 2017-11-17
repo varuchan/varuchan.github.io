@@ -1,0 +1,56 @@
+#newobject {
+	/*background-color: grey;*/
+	max-width: 100%;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 0.80em;
+	margin: 0.5em;
+}
+
+.definition {
+	max-width: 80%;
+	text-align: left;
+	font-family: "Courier New";
+	margin: 0px 0.75em 0px 0.75em;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	position: relative;
+	color: #a51010;
+	font-weight: bold;
+}
+
+/*a:hover {
+	color: #000;
+}*/
+
+a:before{
+	content: "";
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 0.15em;
+	bottom: 0;
+	left: 0;
+	background-color: #000;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.18s ease-in-out 0s;
+	transition: all 0.18s ease-in-out 0s;
+}
+
+a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+a:active:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1.5) translate(800px, 0px);
+	transform: scaleX(1.5) translate(800px, 0px);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
