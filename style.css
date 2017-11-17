@@ -2,20 +2,19 @@
 	/*background-color: grey;*/
 	max-width: 100%;
 	font-family: "Courier New", Courier, monospace;
-	font-size: 0.80em;
+	font-size: 0.90em;
 	margin: 0.5em;
+  white-space: nowrap;
+  line-height: 1.25rem;
 }
 
 .definition {
-	max-width: 80%;
+	max-width: 100%;
 	text-align: left;
 	font-family: "Courier New";
 	margin: 0px 0.75em 0px 0.75em;
 }
 
-br {
-	line-height: 150%;
-}
 
 a {
 	text-decoration: none;
