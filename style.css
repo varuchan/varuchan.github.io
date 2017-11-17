@@ -13,6 +13,10 @@
 	margin: 0px 0.75em 0px 0.75em;
 }
 
+br {
+	line-height: 150%;
+}
+
 a {
 	text-decoration: none;
 	color: #000;
